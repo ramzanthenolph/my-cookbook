@@ -100,7 +100,7 @@ public class UsedIngredient {
         this.id = id;
     }
 
-    public int getAmount() {
+    public CharSequence getAmount() {
         return amount;
     }
 

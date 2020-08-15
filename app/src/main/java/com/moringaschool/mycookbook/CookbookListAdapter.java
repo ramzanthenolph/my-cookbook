@@ -60,7 +60,7 @@ public class CookbookListAdapter extends RecyclerView.Adapter<CookbookListAdapte
         public void bindIngredient(UsedIngredient ingredient) {
             Picasso.get().load(ingredient.getImage()).into(mIngredientImageView);
             mIngredientNameTextView.setText(ingredient.getName());
-            mAmountTextView.setText(ingredient.getAmount());
+            mAmountTextView.setText("Amount"+ingredient.getAmount());
             mAisleTextView.setText("Aisle: " + ingredient.getAisle() );
         }
     }
