@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.moringaschool.mycookbook">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SavedRecipeListActivity"></activity>
+        <activity android:name=".SavedRecipeListActivity.java" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,19 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".CookbookActivity">
+        <activity android:name=".CookbookActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.moringaschool.mycookbook.MainActivity">
-            </meta-data>
+                android:value="com.moringaschool.mycookbook.MainActivity" />
         </activity>
-        <activity
-            android:name=".AddToCookbookActivity">
+        <activity android:name=".AddToCookbookActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.moringaschool.mycookbook.MainActivity">
-            </meta-data>
+                android:value="com.moringaschool.mycookbook.MainActivity" />
         </activity>
     </application>
 
