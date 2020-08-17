@@ -26,6 +26,7 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
     //private SharedPreferences mSharedPreferences;
     //private SharedPreferences.Editor mEditor;
     private DatabaseReference mSearchedIngredientReference;
+    private ValueEventListener mSearchedIngredientReferenceListener;
 
     @BindView(R.id.toCookbookButton) Button mToCookbookButton;
     @BindView(R.id.ingredientEditText) EditText mIngredientEditText;
@@ -73,6 +74,12 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
             startActivity(intent);
             Toast.makeText(AddToCookbookActivity.this, "Added successfully to Cookbook", Toast.LENGTH_LONG).show();
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mSearchedIngredientReference.removeEventListener(mSearchedIngredientReferenceListener);
     }
 
     public void saveIngredientToFirebase(String ingredient) {
