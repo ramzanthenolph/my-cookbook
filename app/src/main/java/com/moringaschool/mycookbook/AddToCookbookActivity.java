@@ -56,7 +56,7 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
     }
 
     public void saveIngredientToFirebase(String ingredient) {
-        mSearchedIngredientReference.setValue(ingredient);
+        mSearchedIngredientReference.push().setValue(ingredient);
     }
 
 
