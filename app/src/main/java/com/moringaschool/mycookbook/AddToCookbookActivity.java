@@ -15,8 +15,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class AddToCookbookActivity extends AppCompatActivity implements View.OnClickListener {
-    private SharedPreferences mSharedPreferences;
-    private SharedPreferences.Editor mEditor;
+    //private SharedPreferences mSharedPreferences;
+    //private SharedPreferences.Editor mEditor;
 
     @BindView(R.id.toCookbookButton) Button mToCookbookButton;
     @BindView(R.id.ingredientEditText) EditText mIngredientEditText;
@@ -27,8 +27,8 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
         setContentView(R.layout.activity_addtocookbook);
         ButterKnife.bind(this);
 
-        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        mEditor = mSharedPreferences.edit();
+        //mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        //mEditor = mSharedPreferences.edit();
 
 
         mToCookbookButton.setOnClickListener(this);
@@ -38,7 +38,7 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
     public void onClick(View v) {
         if (v == mToCookbookButton){
             String ingredient = mIngredientEditText.getText().toString();
-            addToSharedPreferences(ingredient);
+
             Intent intent = new Intent(AddToCookbookActivity.this, CookbookActivity.class);
             intent.putExtra("ingredient", ingredient);
             startActivity(intent);
@@ -46,7 +46,7 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
         }
     }
 
-    private void addToSharedPreferences(String ingredient) {
+    /*private void addToSharedPreferences(String ingredient) {
         mEditor.putString(Constants.PREFERENCES_FOOD_KEY, ingredient).apply();
-    }
+    } */
 }

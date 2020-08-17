@@ -12,7 +12,7 @@ public class UsedIngredient {
     private Integer id;
     @SerializedName("amount")
     @Expose
-    private Double amount;
+    private CharSequence amount;
     @SerializedName("unit")
     @Expose
     private String unit;
@@ -74,7 +74,7 @@ public class UsedIngredient {
      * @param id
      * @param metaInformation
      */
-    public UsedIngredient(Integer id, Double amount, String unit, String unitLong, String unitShort, String aisle, String name, String original, String originalString, String originalName, List<String> metaInformation, List<String> meta, String extendedName, String image) {
+    public UsedIngredient(Integer id, CharSequence amount, String unit, String unitLong, String unitShort, String aisle, String name, String original, String originalString, String originalName, List<String> metaInformation, List<String> meta, String extendedName, String image) {
         super();
         this.id = id;
         this.amount = amount;
@@ -104,7 +104,7 @@ public class UsedIngredient {
         return amount;
     }
 
-    public void setAmount(Double amount) {
+    public void setAmount(CharSequence amount) {
         this.amount = amount;
     }
 
