@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".IngredientListActivity.java" />
-        <activity android:name=".SavedRecipeListActivity" />
-        <activity android:name=".SavedRecipeListActivity.java" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".SavedRecipeListActivity" />
+        <activity android:name=".MainActivity">
+
         </activity>
         <activity android:name=".CookbookActivity">
             <meta-data
