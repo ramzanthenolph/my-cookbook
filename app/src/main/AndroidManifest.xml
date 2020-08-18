@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SavedRecipeListActivity"></activity>
+        <activity android:name=".IngredientListActivity"></activity>
+        <activity android:name=".IngredientListActivity.java" />
+        <activity android:name=".SavedRecipeListActivity" />
         <activity android:name=".SavedRecipeListActivity.java" />
         <activity android:name=".MainActivity">
             <intent-filter>

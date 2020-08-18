@@ -24,8 +24,10 @@ import retrofit2.Response;
 
 public class CookbookActivity extends AppCompatActivity {
 
-    @BindView(R.id.recyclerView) RecyclerView mRecyclerView;
+
     private CookbookListAdapter mAdapter;
+
+    @BindView(R.id.recyclerView) RecyclerView mRecyclerView;
     @BindView(R.id.errorTextView) TextView mErrorTextView;
     @BindView(R.id.progressBar) ProgressBar mProgressBar;
 
