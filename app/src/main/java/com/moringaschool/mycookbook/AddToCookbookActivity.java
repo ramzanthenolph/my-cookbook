@@ -23,8 +23,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class AddToCookbookActivity extends AppCompatActivity implements View.OnClickListener {
-    //private SharedPreferences mSharedPreferences;
-    //private SharedPreferences.Editor mEditor;
+    private SharedPreferences mSharedPreferences;
+    private SharedPreferences.Editor mEditor;
     private DatabaseReference mSearchedIngredientReference;
     private ValueEventListener mSearchedIngredientReferenceListener;
 
@@ -57,8 +57,8 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
         setContentView(R.layout.activity_addtocookbook);
         ButterKnife.bind(this);
 
-        //mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        //mEditor = mSharedPreferences.edit();
+        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        mEditor = mSharedPreferences.edit();
 
 
         mToCookbookButton.setOnClickListener(this);
@@ -87,7 +87,7 @@ public class AddToCookbookActivity extends AppCompatActivity implements View.OnC
     }
 
 
-    /*private void addToSharedPreferences(String ingredient) {
+    private void addToSharedPreferences(String ingredient) {
         mEditor.putString(Constants.PREFERENCES_FOOD_KEY, ingredient).apply();
-    } */
+    }
 }
