@@ -1,0 +1,40 @@
+com/moringaschool/mycookbook/CookbookActivity.java
+ com.moringaschool.mycookbook.CookbookActivity
+ com.moringaschool.mycookbook.CookbookActivity$1
+com/moringaschool/mycookbook/BuildConfig.java
+ com.moringaschool.mycookbook.BuildConfig
+com/moringaschool/mycookbook/CookbookArrayAdapter.java
+ com.moringaschool.mycookbook.CookbookArrayAdapter
+com/moringaschool/mycookbook/MainActivity.java
+ com.moringaschool.mycookbook.MainActivity
+com/moringaschool/mycookbook/SavedRecipeListActivity.java
+ com.moringaschool.mycookbook.SavedRecipeListActivity
+ com.moringaschool.mycookbook.SavedRecipeListActivity$1
+com/moringaschool/mycookbook/SpoonacularClient.java
+ com.moringaschool.mycookbook.SpoonacularClient
+ com.moringaschool.mycookbook.SpoonacularClient$1
+com/moringaschool/mycookbook/UsedIngredient.java
+ com.moringaschool.mycookbook.UsedIngredient
+com/moringaschool/mycookbook/UnusedIngredient.java
+ com.moringaschool.mycookbook.UnusedIngredient
+com/moringaschool/mycookbook/SpoonacularApi.java
+ com.moringaschool.mycookbook.SpoonacularApi
+com/moringaschool/mycookbook/FindByIngredientResponse.java
+ com.moringaschool.mycookbook.FindByIngredientResponse
+com/moringaschool/mycookbook/CreateAccountActivity.java
+ com.moringaschool.mycookbook.CreateAccountActivity
+com/moringaschool/mycookbook/MissedIngredient.java
+ com.moringaschool.mycookbook.MissedIngredient
+com/moringaschool/mycookbook/CookbookListAdapter.java
+ com.moringaschool.mycookbook.CookbookListAdapter
+ com.moringaschool.mycookbook.CookbookListAdapter$CookbookViewHolder
+com/moringaschool/mycookbook/AddToCookbookActivity.java
+ com.moringaschool.mycookbook.AddToCookbookActivity
+ com.moringaschool.mycookbook.AddToCookbookActivity$1
+com/moringaschool/mycookbook/FirebaseIngredientViewHolder.java
+ com.moringaschool.mycookbook.FirebaseIngredientViewHolder
+ com.moringaschool.mycookbook.FirebaseIngredientViewHolder$1
+com/moringaschool/mycookbook/Constants.java
+ com.moringaschool.mycookbook.Constants
+com/moringaschool/mycookbook/LoginActivity.java
+ com.moringaschool.mycookbook.LoginActivity

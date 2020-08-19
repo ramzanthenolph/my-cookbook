@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moringaschool.mycookbook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:16.0.6] /home/ramzan/.gradle/caches/transforms-2/files-2.1/421da1464e71479e981943ee3d01a1a2/jetified-firebase-database-16.0.6/AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-database:16.0.6] /home/ramzan/.gradle/caches/transforms-2/files-2.1/421da1464e71479e981943ee3d01a1a2/jetified-firebase-database-16.0.6/AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4ead7cc97fdb65ef6e14eaa6d0b19871/jetified-firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4ead7cc97fdb65ef6e14eaa6d0b19871/jetified-firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:26:5-110
+17-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:7:5-36:19
+21        android:allowBackup="true"
+21-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/c37f77cca35f056d40620d2c17f2558a/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:13:9-40
+30        <activity android:name="com.moringaschool.mycookbook.LoginActivity" >
+30-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:14:9-20:20
+30-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:14:19-48
+31            <intent-filter>
+31-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:15:13-19:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:16:17-69
+32-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:18:17-77
+34-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:18:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.moringaschool.mycookbook.CreateAccountActivity" />
+37-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:21:9-59
+37-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:21:19-56
+38        <activity android:name="com.moringaschool.mycookbook.SavedRecipeListActivity" />
+38-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:22:9-61
+38-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:22:19-58
+39        <activity android:name="com.moringaschool.mycookbook.MainActivity" >
+39-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:23:9-25:20
+39-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:23:19-47
+40        </activity>
+41        <activity android:name="com.moringaschool.mycookbook.CookbookActivity" >
+41-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:26:9-30:20
+41-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:26:19-51
+42            <meta-data
+42-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:27:13-29:77
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:28:17-63
+44                android:value="com.moringaschool.mycookbook.MainActivity" />
+44-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:29:17-74
+45        </activity>
+46        <activity android:name="com.moringaschool.mycookbook.AddToCookbookActivity" >
+46-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:31:9-35:20
+46-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:31:19-56
+47            <meta-data
+47-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:27:13-29:77
+48                android:name="android.support.PARENT_ACTIVITY"
+48-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:28:17-63
+49                android:value="com.moringaschool.mycookbook.MainActivity" />
+49-->/home/ramzan/AndroidStudioProjects/MyCookbook/app/src/main/AndroidManifest.xml:29:17-74
+50        </activity>
+51
+52        <provider
+52-->[com.squareup.picasso:picasso:2.71828] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8143214540b66bb6e1834534ce1395e0/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+53            android:name="com.squareup.picasso.PicassoProvider"
+53-->[com.squareup.picasso:picasso:2.71828] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8143214540b66bb6e1834534ce1395e0/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+54            android:authorities="com.moringaschool.mycookbook.com.squareup.picasso"
+54-->[com.squareup.picasso:picasso:2.71828] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8143214540b66bb6e1834534ce1395e0/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+55            android:exported="false" />
+55-->[com.squareup.picasso:picasso:2.71828] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8143214540b66bb6e1834534ce1395e0/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+56
+57        <activity
+57-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:24:9-31:50
+58            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+58-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:25:13-85
+59            android:excludeFromRecents="true"
+59-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:26:13-46
+60            android:exported="true"
+60-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:27:13-36
+61            android:launchMode="singleTask"
+61-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:28:13-44
+62            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+62-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:29:13-102
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:30:13-72
+64
+65        <service
+65-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:33:9-39:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:34:13-84
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:35:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:36:13-38:85
+69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+69-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:37:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:38:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4ead7cc97fdb65ef6e14eaa6d0b19871/jetified-firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:28:13-30:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4ead7cc97fdb65ef6e14eaa6d0b19871/jetified-firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:29:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4ead7cc97fdb65ef6e14eaa6d0b19871/jetified-firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:30:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+75-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+77        </service>
+78
+79        <receiver
+79-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:29:9-33:20
+80            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+80-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:30:13-85
+81            android:enabled="true"
+81-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:31:13-35
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:32:13-37
+83        </receiver>
+84        <receiver
+84-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:34:9-42:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+85-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:35:13-100
+86            android:enabled="true"
+86-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:36:13-35
+87            android:exported="true"
+87-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:37:13-36
+88            android:permission="android.permission.INSTALL_PACKAGES" >
+88-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:38:13-69
+89            <intent-filter>
+89-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:39:13-41:29
+90                <action android:name="com.android.vending.INSTALL_REFERRER" />
+90-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:40:17-79
+90-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:40:25-76
+91            </intent-filter>
+92        </receiver>
+93
+94        <service
+94-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:44:9-47:40
+95            android:name="com.google.android.gms.measurement.AppMeasurementService"
+95-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:45:13-84
+96            android:enabled="true"
+96-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:46:13-35
+97            android:exported="false" />
+97-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:47:13-37
+98        <service
+98-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:48:9-52:72
+99            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+99-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:49:13-87
+100            android:enabled="true"
+100-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:50:13-35
+101            android:exported="false"
+101-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:51:13-37
+102            android:permission="android.permission.BIND_JOB_SERVICE" />
+102-->[com.google.firebase:firebase-analytics:16.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/76d1a8a7b26798469b41fe3c3032ca7b/jetified-firebase-analytics-16.3.0/AndroidManifest.xml:52:13-69
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+109-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+110            </intent-filter>
+111        </receiver>
+112        <!--
+113             FirebaseInstanceIdService performs security checks at runtime,
+114             no need for explicit permissions despite exported="true"
+115        -->
+116        <service
+116-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+117            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+117-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+118            android:exported="true" >
+118-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+119            <intent-filter android:priority="-500" >
+119-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+119-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+120                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+120-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+120-->[com.google.firebase:firebase-iid:17.0.3] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8eda987724199bb4aef8ea1b09d9a4ad/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+121            </intent-filter>
+122        </service>
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/176b411080b4dbac11086d0fe9eac285/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/176b411080b4dbac11086d0fe9eac285/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/176b411080b4dbac11086d0fe9eac285/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/176b411080b4dbac11086d0fe9eac285/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:16.0.4] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4521a71ead19653b13b0be414dd15bf5/jetified-firebase-common-16.0.4/AndroidManifest.xml:10:9-14:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:16.0.4] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4521a71ead19653b13b0be414dd15bf5/jetified-firebase-common-16.0.4/AndroidManifest.xml:11:13-77
+131            android:authorities="com.moringaschool.mycookbook.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:16.0.4] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4521a71ead19653b13b0be414dd15bf5/jetified-firebase-common-16.0.4/AndroidManifest.xml:12:13-72
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:16.0.4] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4521a71ead19653b13b0be414dd15bf5/jetified-firebase-common-16.0.4/AndroidManifest.xml:13:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:16.0.4] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4521a71ead19653b13b0be414dd15bf5/jetified-firebase-common-16.0.4/AndroidManifest.xml:14:13-36
+134
+135        <meta-data
+135-->[com.google.android.gms:play-services-basement:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/590b519c468fc687f01652b0cd346505/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+136            android:name="com.google.android.gms.version"
+136-->[com.google.android.gms:play-services-basement:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/590b519c468fc687f01652b0cd346505/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+137            android:value="@integer/google_play_services_version" />
+137-->[com.google.android.gms:play-services-basement:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/590b519c468fc687f01652b0cd346505/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+138    </application>
+139
+140</manifest>
