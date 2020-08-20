@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
@@ -41,6 +42,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
         ButterKnife.bind(this);
+        FirebaseApp.initializeApp(this);
 
         mLoginTextView.setOnClickListener(this);
         mCreateUserButton.setOnClickListener(this);
@@ -87,7 +89,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
 
             if (task.isSuccessful()){
                 Log.d(TAG, "Authentication successful");
-                createFirebaseUserProfile(Objects.requireNonNull(task.getResult()).getUser());
+                //createFirebaseUserProfile(Objects.requireNonNull(Objects.requireNonNull(task.getResult()).getUser()));
             }else {
                 Toast.makeText(CreateAccountActivity.this,"Authentication failed.", Toast.LENGTH_SHORT).show();
             }
@@ -126,7 +128,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
             mEmailEditText.setError("Please enter a valid email address");
             return false;
         }
-        return isGoodEmail;
+        return true;
     }
 
     private boolean isValidName(String name){

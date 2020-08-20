@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#c51162</color>
     <color name="colorTextIcons">#FFFFFF</color>
-    <color name="colorDivider">#757761</color>
-    <color name="colorPrimaryLight">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorPrimaryLight">#FFCCBC</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorPrimaryText">#1F1E1E</color>
 </resources>

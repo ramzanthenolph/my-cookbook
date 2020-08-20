@@ -4,7 +4,7 @@
             "outputFile": "/home/ramzan/AndroidStudioProjects/MyCookbook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/ramzan/.gradle/caches/transforms-2/files-2.1/51e6f832d942b1fcdc806fb821905ea4/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/home/ramzan/.gradle/caches/transforms-2/files-2.1/8694fa05979f37bab1d3b341b09f5a36/appcompat-1.2.0/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
