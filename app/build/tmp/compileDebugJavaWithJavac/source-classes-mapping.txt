@@ -23,6 +23,8 @@ com/moringaschool/mycookbook/FindByIngredientResponse.java
  com.moringaschool.mycookbook.FindByIngredientResponse
 com/moringaschool/mycookbook/CreateAccountActivity.java
  com.moringaschool.mycookbook.CreateAccountActivity
+ com.moringaschool.mycookbook.CreateAccountActivity$1
+ com.moringaschool.mycookbook.CreateAccountActivity$2
 com/moringaschool/mycookbook/MissedIngredient.java
  com.moringaschool.mycookbook.MissedIngredient
 com/moringaschool/mycookbook/CookbookListAdapter.java

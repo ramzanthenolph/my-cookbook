@@ -11,14 +11,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.FirebaseApp;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.UserProfileChangeRequest;
-
-import java.util.Objects;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,7 +42,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
         ButterKnife.bind(this);
-        FirebaseApp.initializeApp(this);
+
 
         mLoginTextView.setOnClickListener(this);
         mCreateUserButton.setOnClickListener(this);
@@ -84,26 +84,34 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         if (!validEmail || !validName || !validPassword) return;
         mAuthProgressDialog.show();
 
-        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, task -> {
-            mAuthProgressDialog.dismiss();
+        mAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>()  {
 
-            if (task.isSuccessful()){
-                Log.d(TAG, "Authentication successful");
-                //createFirebaseUserProfile(Objects.requireNonNull(Objects.requireNonNull(task.getResult()).getUser()));
-            }else {
-                Toast.makeText(CreateAccountActivity.this,"Authentication failed.", Toast.LENGTH_SHORT).show();
-            }
+
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            mAuthProgressDialog.dismiss();
+                            Log.d(TAG, "Authentication successful");
+                        }else {
+                            mAuthProgressDialog.dismiss();
+                            Toast.makeText(CreateAccountActivity.this,"Authentication failed.", Toast.LENGTH_SHORT).show();
+                        }
+                    }
         });
     }
 
     private void createAuthStateListener(){
-        mAuthListener = firebaseAuth -> {
-            final FirebaseUser user = firebaseAuth.getCurrentUser();
-            if (user != null){
-                Intent intent = new Intent(CreateAccountActivity.this, MainActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-                finish();
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                final FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null){
+                    Intent intent = new Intent(CreateAccountActivity.this, MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                    finish();
+                }
             }
         };
     }
@@ -112,6 +120,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     public void onStart(){
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
+
     }
 
     @Override
@@ -148,20 +157,6 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
             return false;
         }
         return true;
-    }
-
-    private void createFirebaseUserProfile(final FirebaseUser user){
-        UserProfileChangeRequest addProfileName = new UserProfileChangeRequest.Builder()
-                .setDisplayName(mName)
-                .build();
-
-        user.updateProfile(addProfileName)
-                .addOnCompleteListener(task -> {
-                    if(task.isSuccessful()){
-                        Log.d(TAG, Objects.requireNonNull(user.getDisplayName()));
-                        Toast.makeText(CreateAccountActivity.this, "The display name has ben set", Toast.LENGTH_LONG).show();
-                    }
-                });
     }
 
 }

@@ -1,4 +1,4 @@
-#Thu Aug 20 15:53:29 EAT 2020
+#Fri Aug 21 13:07:30 EAT 2020
 base.0=/home/ramzan/AndroidStudioProjects/MyCookbook/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -12,15 +12,16 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/ramzan/.gradle/cach
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/ramzan/.gradle/caches/transforms-2/files-2.1/8143214540b66bb6e1834534ce1395e0/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-core:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5e2ff5f68d7d1bc473ccbb2be34b884e/jetified-firebase-core-17.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:17:1-42:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/024b9e5aa0fc351ade2d6146ae64fc0c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/74a7eb95f955df5bff5f2f832b8a99e9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a840f635aff66e171951d0036d33a01f/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/14ecc35baaf2567334c0c14d80f5e1ec/jetified-play-services-flags-16.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5f9d8a54a4d285161932c1fba48ad8f1/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/9931a2a5c7377c80708f4e0923d3a008/jetified-firebase-installations-16.3.2/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/f5adddc93abf3e7ceb3d57278e7e9015/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/65cc2aa29f642055f3902a62d029f572/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/cbd302af37f9db2291c1527f4fd95c9f/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:17:1-46:12
@@ -54,13 +55,13 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ramzan/.gradle/ca
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/135ad0152372aa0457d384569f25b3c2/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-common:3.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/f3def2f4d9cf6424cfdea4eb2881ed03/jetified-firebase-ui-common-3.3.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/db081e7fc1715cbf17ac1f59ea969406/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e15195118bb9d57fffd9370562f33817/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/96e15102830d9b54e7ac50f508eb43a8/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/071974e20f2fa8eb25a66f4d9e8c1d0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/71216999f85ba882aa37a1e2e99e40de/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/2290807643fa3ad4649347160f0cf4c8/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e5ee51559b0f550d966c8d18623d7704/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4acf2add4ebf4e3cc3877ef263392a9f/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2c384040382c1df94f3a71c3707783e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/b0320169e3f89ab6453daa6e8e58c282/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -110,10 +111,12 @@ MERGED from [com.google.firebase:firebase-core:17.5.0] /home/ramzan/.gradle/cach
 MERGED from [com.google.firebase:firebase-core:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5e2ff5f68d7d1bc473ccbb2be34b884e/jetified-firebase-core-17.5.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/74a7eb95f955df5bff5f2f832b8a99e9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/74a7eb95f955df5bff5f2f832b8a99e9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a840f635aff66e171951d0036d33a01f/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a840f635aff66e171951d0036d33a01f/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5f9d8a54a4d285161932c1fba48ad8f1/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5f9d8a54a4d285161932c1fba48ad8f1/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:26:5-34:19
@@ -122,8 +125,6 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gr
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/9931a2a5c7377c80708f4e0923d3a008/jetified-firebase-installations-16.3.2/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/65cc2aa29f642055f3902a62d029f572/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/65cc2aa29f642055f3902a62d029f572/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/cbd302af37f9db2291c1527f4fd95c9f/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:28:5-44:19
@@ -224,12 +225,18 @@ MERGED from [com.google.firebase:firebase-core:17.5.0] /home/ramzan/.gradle/cach
 MERGED from [com.google.firebase:firebase-core:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5e2ff5f68d7d1bc473ccbb2be34b884e/jetified-firebase-core-17.5.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/024b9e5aa0fc351ade2d6146ae64fc0c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/024b9e5aa0fc351ade2d6146ae64fc0c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/74a7eb95f955df5bff5f2f832b8a99e9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/74a7eb95f955df5bff5f2f832b8a99e9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a840f635aff66e171951d0036d33a01f/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a840f635aff66e171951d0036d33a01f/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/14ecc35baaf2567334c0c14d80f5e1ec/jetified-play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/14ecc35baaf2567334c0c14d80f5e1ec/jetified-play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5f9d8a54a4d285161932c1fba48ad8f1/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/5f9d8a54a4d285161932c1fba48ad8f1/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:20:5-44
@@ -238,10 +245,6 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gr
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/9931a2a5c7377c80708f4e0923d3a008/jetified-firebase-installations-16.3.2/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/50235b7e68d275bca601bac4367fae5e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/f5adddc93abf3e7ceb3d57278e7e9015/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/f5adddc93abf3e7ceb3d57278e7e9015/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/65cc2aa29f642055f3902a62d029f572/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
@@ -308,8 +311,6 @@ MERGED from [com.firebaseui:firebase-ui-common:3.3.1] /home/ramzan/.gradle/cache
 MERGED from [com.firebaseui:firebase-ui-common:3.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/f3def2f4d9cf6424cfdea4eb2881ed03/jetified-firebase-ui-common-3.3.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/db081e7fc1715cbf17ac1f59ea969406/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/db081e7fc1715cbf17ac1f59ea969406/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e15195118bb9d57fffd9370562f33817/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e15195118bb9d57fffd9370562f33817/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/96e15102830d9b54e7ac50f508eb43a8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
@@ -322,6 +323,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ramzan/.gradle/cach
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/2290807643fa3ad4649347160f0cf4c8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e5ee51559b0f550d966c8d18623d7704/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e5ee51559b0f550d966c8d18623d7704/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/d946a0d700c434c0107f2fbd990170ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4acf2add4ebf4e3cc3877ef263392a9f/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/4acf2add4ebf4e3cc3877ef263392a9f/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2c384040382c1df94f3a71c3707783e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
@@ -364,8 +367,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /h
 		ADDED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/9931a2a5c7377c80708f4e0923d3a008/jetified-firebase-installations-16.3.2/AndroidManifest.xml:14:9-20:19
@@ -387,27 +390,35 @@ ADDED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/c
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.3.1] /home/ramzan/.gradle/caches/transforms-2/files-2.1/3bfbf60e0306e8ba6eb0a82f4c7568e8/jetified-firebase-database-19.3.1/AndroidManifest.xml:33:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:25:13-85
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.3.2] /home/ramzan/.gradle/caches/transforms-2/files-2.1/7602dd75cfa1505da7b45ca03239b14b/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/676d6432c64766cdd48260a4ee918fef/jetified-firebase-auth-16.1.0/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/6e3578821e6190eb05585173b39d64c2/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/a329241a0550c279a57fa1f03083253e/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/cbd302af37f9db2291c1527f4fd95c9f/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
@@ -440,14 +451,6 @@ ADDED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/cac
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/249831f38ea311b2f78d24ed92733b44/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e2390b4a81db2ce3a989a98d5aee5c9b/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/cbd302af37f9db2291c1527f4fd95c9f/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/ramzan/.gradle/caches/transforms-2/files-2.1/e23e37b632853e6b3e8b7da04f976ec4/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:26:5-110
